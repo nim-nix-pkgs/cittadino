@@ -9,13 +9,14 @@
   
   inputs.src-cittadino-0_1_1.flake = false;
   inputs.src-cittadino-0_1_1.owner = "makingspace";
-  inputs.src-cittadino-0_1_1.ref   = "refs/tags/0.1.1";
+  inputs.src-cittadino-0_1_1.ref   = "0_1_1";
   inputs.src-cittadino-0_1_1.repo  = "cittadino";
   inputs.src-cittadino-0_1_1.type  = "github";
   
   inputs."stomp".owner = "nim-nix-pkgs";
   inputs."stomp".ref   = "master";
   inputs."stomp".repo  = "stomp";
+  inputs."stomp".dir   = "";
   inputs."stomp".type  = "github";
   inputs."stomp".inputs.nixpkgs.follows = "nixpkgs";
   inputs."stomp".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
