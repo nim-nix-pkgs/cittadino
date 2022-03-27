@@ -11,6 +11,7 @@
   inputs.src-cittadino-0_1_2.ref   = "refs/tags/0.1.2";
   inputs.src-cittadino-0_1_2.owner = "makingspace";
   inputs.src-cittadino-0_1_2.repo  = "cittadino";
+  inputs.src-cittadino-0_1_2.dir   = "";
   inputs.src-cittadino-0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
