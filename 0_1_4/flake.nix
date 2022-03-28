@@ -11,8 +11,15 @@
   inputs.src-cittadino-0_1_4.ref   = "refs/tags/0.1.4";
   inputs.src-cittadino-0_1_4.owner = "makingspace";
   inputs.src-cittadino-0_1_4.repo  = "cittadino";
-  inputs.src-cittadino-0_1_4.dir   = "";
   inputs.src-cittadino-0_1_4.type  = "github";
+  
+  inputs."github.com/subsetpark/nim-stomp".owner = "nim-nix-pkgs";
+  inputs."github.com/subsetpark/nim-stomp".ref   = "master";
+  inputs."github.com/subsetpark/nim-stomp".repo  = "github.com/subsetpark/nim-stomp";
+  inputs."github.com/subsetpark/nim-stomp".dir   = "";
+  inputs."github.com/subsetpark/nim-stomp".type  = "github";
+  inputs."github.com/subsetpark/nim-stomp".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/subsetpark/nim-stomp".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

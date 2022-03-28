@@ -11,7 +11,6 @@
   inputs.src-cittadino-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-cittadino-0_1_0.owner = "makingspace";
   inputs.src-cittadino-0_1_0.repo  = "cittadino";
-  inputs.src-cittadino-0_1_0.dir   = "";
   inputs.src-cittadino-0_1_0.type  = "github";
   
   inputs."stomp".owner = "nim-nix-pkgs";
