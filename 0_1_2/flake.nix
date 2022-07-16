@@ -13,13 +13,13 @@
   inputs.src-cittadino-0_1_2.repo  = "cittadino";
   inputs.src-cittadino-0_1_2.type  = "github";
   
-  inputs."github-subsetpark-nim-stomp".owner = "nim-nix-pkgs";
-  inputs."github-subsetpark-nim-stomp".ref   = "master";
-  inputs."github-subsetpark-nim-stomp".repo  = "github-subsetpark-nim-stomp";
-  inputs."github-subsetpark-nim-stomp".dir   = "0_1_3";
-  inputs."github-subsetpark-nim-stomp".type  = "github";
-  inputs."github-subsetpark-nim-stomp".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-subsetpark-nim-stomp".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/subsetpark/nim-stomp".owner = "nim-nix-pkgs";
+  inputs."github.com/subsetpark/nim-stomp".ref   = "master";
+  inputs."github.com/subsetpark/nim-stomp".repo  = "github.com/subsetpark/nim-stomp";
+  inputs."github.com/subsetpark/nim-stomp".dir   = "";
+  inputs."github.com/subsetpark/nim-stomp".type  = "github";
+  inputs."github.com/subsetpark/nim-stomp".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/subsetpark/nim-stomp".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
